@@ -45,7 +45,7 @@ yarn dev
 
 To build production files, simply run `yarn build`.
 
-You'll need to deploy a cloudflare service worker as well. Check the [selfhosting guide](https://github.com/movie-web/movie-web/blob/dev/SELFHOSTING.md) on how to run the service worker. Afterwards you can make a `.env` file and put in the URL. (see `example.env` for an example)
+You'll need to deploy a cloudflare service worker as well. Check the [selfhosting guide](https://github.com/movie-web/movie-web/blob/dev/SELFHOSTING.md) on how to run the service worker. Afterwards you can make a `.env` file and put in the URL and your TMDB API Read Access Token. (see `example.env` for an example)
 
 <h2>Contributing - <a href="https://github.com/movie-web/movie-web/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/movie-web/movie-web?style=flat-square"></a>
 <a href="https://github.com/movie-web/movie-web/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/movie-web/movie-web?style=flat-square"></a></h2>

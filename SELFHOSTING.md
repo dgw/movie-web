@@ -29,9 +29,12 @@ Your proxy is now hosted on cloudflare. Note the url of your worker. you will ne
 1. Download the file `movie-web.zip` from the latest release: [https://github.com/movie-web/movie-web/releases/latest](https://github.com/movie-web/movie-web/releases/latest)
 2. Extract the zip file so you can edit the files.
 3. Open `config.js` in notepad, VScode or similar.
-4. Put your cloudflare proxy URL inbetween the double qoutes of `VITE_CORS_PROXY_URL: "",`. Make sure to not have a slash at the end of your URL.
+4. Put your cloudflare proxy URL inbetween the double quotes of `VITE_CORS_PROXY_URL: "",`. Make sure to not have a slash at the end of your URL.
 
    Example (THIS IS MINE, IT WONT WORK FOR YOU): `VITE_CORS_PROXY_URL: "https://test-proxy.test.workers.dev",`
+5. Get an API Read Access Token from your account at TMDB (it's free to sign up if you haven't yet) and paste it between the double quotes of `VITE_TMDB_API_KEY: "",`
+
+   Example (THIS HAS BEEN REVOKED; IT WILL NOT WORK FOR YOU): `VITE_TMDB_API_KEY: "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZjE4NWFkNjExMTIyNTQxZDgwMDBjNDA5YjVlY2QzOSIsInN1YiI6IjU0OGViZjY5OTI1MTQxNTU2ODAwNDUxOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CjsS0haA-S37ylzOwOTwdVPrE6ASbH2G9YsXJlTeYLg",`
 5. Save the file
 
 Your client has been prepared, you can now host it on any webhost.
